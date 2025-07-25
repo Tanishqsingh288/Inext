@@ -1,67 +1,37 @@
-# 📝 MERN Task Management System
+# 🧩 Inext Task Manager
 
-This is a full-stack **Task Management Application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The application supports:
+The **Inext Task Manager** is a full-stack web application designed to simplify task delegation, time tracking, and performance reporting for individuals and teams. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), it delivers a modern and responsive interface along with a robust backend.
 
-- 🔐 User Registration & Login
-- 👥 Display list of all registered users
-- ✅ Task Management with full CRUD
-- ⏱️ Time tracking per task (start/stop timer)
-- 📊 Reporting: task count, time spent, and daily/project summaries
-- 📦 Docker support for platform-independent deployment
+## 🚀 Key Features
 
----
+- 🔐 **User Authentication & Authorization**  
+  Secure registration and login system with role-based access.
 
-## 🚀 Tech Stack
+- 📝 **Task Management (CRUD)**  
+  Create, assign, update, and delete tasks between users.
 
-### 📌 Frontend:
-- **React.js** (via Create React App)
-- **Axios** (for HTTP requests)
-- **React Router DOM** (for navigation)
+- 👤 **User-to-User Assignment**  
+  Tasks can be assigned to any registered user.
 
-### 🧠 Backend:
-- **Node.js** + **Express.js** (REST API)
-- **MongoDB** + **Mongoose** (Database & ODM)
-- **bcryptjs** (Password hashing)
-- **jsonwebtoken (JWT)** (Authentication)
-- **multer** (File uploads – photo)
-- **dotenv** (Environment config)
+- ⏱ **Live Time Tracking**  
+  Start and stop timers on tasks to log actual time spent.
 
-### 📦 DevOps:
-- **Docker** (for containerization)
-- **Docker Compose** (for multi-service orchestration)
+- 📊 **Detailed Reports**  
+  View personal reports showing:
+  - Total assigned tasks
+  - Time spent per task
+  - Daily summaries of productivity
 
----
+- 💾 **Image Upload Support**  
+  Users can upload profile images during registration.
 
-## 🏗️ Project Architecture
+- 📦 **Modular Structure**  
+  Organized codebase with separate frontend and backend folders for scalability and maintenance.
 
-project-root/
-├── backend/
-│ ├── controllers/ # API logic (auth, tasks)
-│ ├── models/ # Mongoose schemas (User, Task)
-│ ├── routes/ # Express routes (authRoutes, taskRoutes)
-│ ├── middleware/ # JWT, error handling, validation
-│ ├── uploads/ # Uploaded user profile photos
-│ ├── server.js # Express server entry
-│ └── .env # Secrets (Mongo URI, JWT secret)
-├── frontend/
-│ ├── public/
-│ └── src/
-│ ├── components/ # UI components
-│ ├── pages/ # Page components (Register, Login, Home, Task)
-│ ├── App.js # Main app routing
-│ └── index.js # Entry point
-├── docker-compose.yml # Combined services
-├── Dockerfile # Frontend/Backend Docker setup
-├── README.md
+## 🛠 Tech Stack
 
-
----
-
-## 🛠️ Setup Instructions (Local)
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/inext.git
-cd inext
+- **Frontend**: React, Bootstrap, Axios  
+- **Backend**: Node.js, Express.js, MongoDB, Multer  
+- **Authentication**: JWT, Bcrypt
 
 
