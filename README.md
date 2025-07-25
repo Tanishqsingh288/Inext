@@ -35,3 +35,4 @@ The **Inext Task Manager** is a full-stack web application designed to simplify 
 - **Authentication**: JWT, Bcrypt
 
 
+Youtube DEMO VIDEO URL (https://www.youtube.com/watch?v=810tfN34uTo&feature=youtu.be)
